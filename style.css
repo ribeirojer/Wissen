@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(apoio/greg-rakozy-0LU4vO5iFpM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.linha {
+    display: flex;
+}
+.circulo img {
+    width: 60px;
+    height: 60px;
+}
+label {
+    padding: 45px;
+    height: 90px;
+    width: 90px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#centro {
+    position: absolute;
+    height: 358px;
+    width: 357px;
+    top: 377px;
+    left: 549px;
+    border-radius: 50%;
+}
+#psico {
+    position: absolute;
+    top: 136px;
+    left: 289px;
+    padding: 83px 78px 71px 96px;
+    background: linear-gradient(135deg, rgb(60,0,120), rgb(120,0,255));
+    clip-path: polygon(5% 72%, 33% 33%, 72% 0%, 98% 45%, 65% 73%, 49% 99%);
+}
+#direi {
+    position: absolute;
+    top: 51px;
+    left: 472px;
+    padding: 52px 54px 54px 112px;
+    background: linear-gradient(180deg, rgba(0,0,60,0.9), rgba(0,0,255,0.9));
+    clip-path: polygon(5% 42%, 39% 20%, 99% 8%, 99% 73%, 60% 80%, 31% 98%);
+}
+#arque {
+    position: absolute;
+    top: 46px;
+    left: 721px;
+    padding: 54px 81px 49px 73px;
+    background: linear-gradient(180deg, rgba(0,30,50,0.9), rgba(0,120,255,0.9));
+    clip-path: polygon( 3% 11%, 62% 21%, 100% 43%, 75% 100%, 37% 81%, 3% 77%);
+}
+#econo {
+    position: absolute;
+    top: 160px;
+    left: 911px;
+    margin: -38px -15px;
+    padding: 89px 89px 76px 95px;
+    background: linear-gradient(45deg, rgb(0,220,220), rgb(0,120,120));
+    clip-path: polygon(26% 3%, 63% 33%, 91% 72%, 51% 97%, 30% 67%, 4% 46%);
+}
+#educa {
+    background: linear-gradient(135deg, rgb(120,0,255), rgb(180,100,255));
+    clip-path: polygon(1% 60%, 19% 31%, 56% 0%, 93% 70%, 77% 83%, 66% 99%);
+    position: absolute;
+    top: 248px;
+    left: 419px;
+    padding: 66px 63px 60px 80px;
+}
+#polit {
+    background: linear-gradient(180deg, rgba(0,0,255,0.9), rgba(100,100,255,0.9));
+    clip-path: polygon(0% 27%, 32% 10%, 76% 3%, 76% 88%, 55% 91%, 38% 99%);
+    position: absolute;
+    top: 190px;
+    left: 552px;
+    padding: 62px 56px 58px 82px;
+}
+#histo {
+    background: linear-gradient(180deg, rgba(0,120,255,0.9), rgb(100,180,255,0.9));
+    clip-path: polygon(12% 1%, 51% 5%, 95% 22%, 54% 97%, 34% 88%, 12% 86%);
+    position: absolute;
+    top: 195px;
+    left: 703px;
+    padding: 60px 60px;
+}
+#socio {
+    background: linear-gradient(45deg, rgb(140,255,255), rgb(0,220,220));
+    clip-path: polygon(6% 66%, 41% 6%, 72% 29%, 94% 56%, 32% 90%, 21% 76%);
+    position: absolute;
+    top: 227px;
+    left: 804px;
+    padding: 86px 78px;
+}
+#liter {
+    position: absolute;
+    top: 314px;
+    left: 207px;
+    padding: 80px 80px;
+    background: linear-gradient(135deg, rgb(120,0,120), rgb(120,0,255));
+    clip-path: polygon(13% 97%, 20% 43%, 38% 1%, 83% 26%, 70% 57%, 65% 97%);
+}
+#lingu {
+    position: absolute;
+    top: 358px;
+    left: 361px;
+    padding: 80px 80px;
+    background: linear-gradient(135deg, rgb(120,0,255), rgb(160, 77, 238));
+    clip-path: polygon(5% 79%, 10% 40%, 23% 9%, 84% 43%, 76% 60%, 74% 79%);
+}
+#geogr {
+    position: absolute;
+    top: 366px;
+    left: 881px;
+    padding: 80px 80px;
+    background: linear-gradient(135deg, rgb(120,0,255), rgb(200,140,255));
+    clip-path: polygon(1% 40%, 62% 4%, 78% 37%, 82% 75%, 11% 75%, 9% 55%);
+}
+#comun {
+    position: absolute;
+    top: 308px;
+    left: 1023px;
+    padding: 80px 80px;
+    background: linear-gradient(180deg, rgb(60,60,255), rgb(140,140,255));
+    clip-path: polygon(22% 60%, 7% 26%, 51% 1%, 69% 41%, 78% 98%, 27% 98%);
+}
+#arte1 {
+    position: absolute;
+    top: 545px;
+    left: 211px;
+    padding: 80px 80px;
+    background: linear-gradient(90deg, rgb(120,0,120), rgb(220,0,220));
+    clip-path: polygon(17% 56%, 11% 6%, 63% 6%, 67% 41%, 81% 76%, 37% 101%);
+}
+#arte2 {
+    position: absolute;
+    top: 507px;
+    left: 359px;
+    padding: 80px 80px;
+    background: linear-gradient(90deg, rgb(220,0,220), rgb(255,60,255));
+    clip-path: polygon(9% 56%, 6% 21%, 75% 21%, 76% 36%, 84% 55%, 23% 91%);
+}
+#biolo {
+    position: absolute;
+    top: 508px;
+    left: 887px;
+    padding: 80px 80px;
+    background: linear-gradient(90deg, rgb(0,220,0), rgb(0,120,0));
+    clip-path: polygon(7% 38%, 9% 19%, 80% 19%, 75% 54%, 61% 90%, 0% 55%);
+}
+#saude {
+    position: absolute;
+    top: 543px;
+    left: 1033px;
+    padding: 80px 80px;
+    background: linear-gradient(90deg, rgb(0,220,0), rgb(0,120,0));
+    clip-path: polygon(18% 40%, 23% 5%, 74% 5%, 68% 55%, 49% 100%, 4% 76%);
+}
+#filos {
+    position: absolute;
+    top: 638px;
+    left: 416px;
+    padding: 80px 80px;
+    background: linear-gradient(45deg, rgb(255,0,120), rgb(255,140,200));
+    clip-path: polygon(23% 67%, 1% 40%, 62% 4%, 72% 19%, 88% 30%, 53% 90%);
+}
+#matem {
+    position: absolute;
+    position: absolute;
+    top: 698px;
+    left: 546px;
+    padding: 80px 80px;
+    background: linear-gradient(45deg, rgb(255,60,60), rgb(255,140,140));
+    clip-path: polygon(2% 67%, 37% 7%, 53% 14%, 72% 16%, 72% 86%, 30% 81%);
+}
+#fisic {
+    position: absolute;
+    top: 698px;
+    left: 691px;
+    padding: 80px 80px;
+    background: linear-gradient(10deg, rgb(255,255,60), rgb(255,255,140));
+    clip-path: polygon(15% 86%, 15% 16%, 33% 14%, 50% 7%, 86% 68%, 52% 82%);
+}
+#quimi {
+    position: absolute;
+    top: 627px;
+    left: 815px;
+    padding: 80px 80px;
+    background: linear-gradient(315deg, rgb(60,255,60), rgb(200,255,140));
+    clip-path: polygon(1% 35%, 16% 24%, 28% 8%, 89% 43%, 65% 75%, 37% 96%);
+}
+#teolo {
+    position: absolute;
+    top: 721px;
+    left: 307px;
+    padding: 80px 80px;
+    background: linear-gradient(45deg, rgb(180,0,0), rgb(255,0,0));
+    clip-path: polygon(30% 73%, 0% 32%, 43% 7%, 65% 34%, 96% 58%, 70% 104%);
+}
+#compu {
+    position: absolute;
+    top: 847px;
+    left: 486px;
+    padding: 80px 80px;
+    background: linear-gradient(45deg, rgb(255,0,0), rgb(255,60,60));
+    clip-path: polygon(0% 53%, 25% 9%, 54% 23%, 96% 28%, 95% 79%, 45% 73%);
+}
+#engen {
+    position: absolute;
+    top: 845px;
+    left: 720px;
+    padding: 80px 80px;
+    background: linear-gradient(45deg, rgb(255,120,0), rgb(255,200,140));
+    clip-path: polygon(3% 80%, 4% 29%, 41% 24%, 75% 10%, 100% 55%, 53% 74%);
+}
+#mater {
+    position: absolute;
+    top: 732px;
+    left: 908px;
+    padding: 80px 80px;
+    background: linear-gradient(10deg, rgba(220, 220, 0, 0.5), rgba(255, 255, 60, 0.5));
+    clip-path: polygon(26% 100%, 1% 55%, 29% 34%, 54% 1%, 99% 26%, 68% 68%);
+}
+#apoio {
+    position: absolute;
+    top: 1100px;
+    left: 575px;
+    background-color: rebeccapurple;
+}
