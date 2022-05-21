@@ -1,0 +1,40 @@
+.carousel-item img {
+    height: 100vh;
+}
+.posicao { 
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+.quote {
+    width: 60vw;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 600;
+}
+.quote p {
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: #000000;
+}
+.caverna {
+    position: absolute;
+    left: 18vw;
+}
+.caverna img {
+    height: 100px;
+}
