@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="style.css">
     <title>Mapa do Conhecimento</title>
     <script type="text/javascript">
-        /* mouseover e mouseout events*/
+         /* mouseover e mouseout events*/
         function setNewImage(caminho){
             document.getElementById("centro").src = caminho;
         }
         function setOldImage(){
             document.getElementById("centro").src = "";
         }
+        function mundodasideias() {
+            var ob = document.getElementById("mundo");
+            if(ob.classList.contains("mundo")) {
+                ob.classList.remove("mundo");
+                document.getElementById("afilos").href  = "#demo-modal";
+                document.getElementById("imgfilos").src = "imagens/filosofia-falando.png";
+                document.getElementById("img_lampada").src = "imagens/lamp-a.png";
+            }
+            else{
+                ob.classList.add("mundo");
+                document.getElementById("afilos").href  = "area/filosofia.html";
+                document.getElementById("imgfilos").src = "imagens/filosofia.png";
+                document.getElementById("img_lampada").src = "imagens/lamp.png";
+            }
+        }
     </script>
 </head>
 <body>
     <main>
         <section>
-                <img id="centro" src="" alt=" ">
+                <img id="centro" src=" " alt=" ">
         </section>
         <section class="circulo">
             <a href="area/psicologia.html">
@@ -123,24 +138,41 @@
             <a href="area/biologia.html">
                 <label id="biolo" onmouseover="setNewImage('img_central/alex-rose-ccWJHxUeM7c-unsplash.jpg')"
                     onmouseout="setOldImage()">
-                    <img src="imagens/estetoscopio.png" alt="biologia">
+                    <img src="imagens/botanica.png" alt="biologia">
                     <p>Biologia</p>
                 </label>
             </a>
             <a href="area/saude.html">          
                 <label id="saude" onmouseover="setNewImage('img_central/marcos-paulo-prado-mR3Rn9y4y_8-unsplash.jpg')"
                     onmouseout="setOldImage()">
-                    <img src="imagens/cuidados-de-saude.png" alt="saudepublica">
+                    <img src="imagens/estetoscopio.png" alt="saudepublica">
                     <p>Saúde Pública</p>
                 </label>
             </a>
-            <a href="area/filosofia.html">
+            <a id="afilos" href="area/filosofia.html">
                 <label id="filos" onmouseover="setNewImage('img_central/Escola_de_Atenas_-_Vaticano_2.jpg')"
                     onmouseout="setOldImage()">
-                    <img src="imagens/filosofia.png" alt="filosofia">
+                    <img id="imgfilos" src="imagens/filosofia.png" alt="filosofia">
                     <p>Filosofia</p>
                 </label>
             </a>
+            <label id="mundo" class="" onclick="mundodasideias()"">
+                <img id="img_lampada" src="imagens/lamp.png" alt="lampada">
+                <p>Ideia</p>
+            </label>
+            <div id="demo-modal" class="modal">
+                <div class="modal_content">
+                    <img src="imagens/platao.png" alt="imagemdeplatao">
+                    <div>
+                        <h1>Platão está orgulhoso.</h1>
+                        <p>Você teve acesso ao mundo das ideias!</p>
+                        <span>
+                            <a class="modal_close" href="#" >permanecer na caverna</a>
+                            <a class="modal_acesso" href="file:///C:/Users/eduar/Desktop/Front-end/Wissen/area/mundo_das_ideias.html">Ir até o mundo</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
             <a href="area/matematica.html">
                 <label id="matem" onmouseover="setNewImage('img_central/reuben-teo-Hba7In7vnoM-unsplash.jpg')"
                     onmouseout="setOldImage()">
@@ -194,8 +226,8 @@
     </main>
     <footer>
         <div id="apoio">
-            <h1>Mapa do Conhecimento</h1>
-            <p>fim</p>
+            <h1>Círculo do Conhecimento</h1>
+            <p>créditos dos ícones <a target="_blanck" href="https://www.flaticon.com/">flaticon</a></p>
         </div>
     </footer>
 </body>
